@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear6" android:background="#ffffff" android:paddingLeft="8dp" android:paddingTop="2dp" android:paddingRight="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/imageview5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/event_on_download_success_48dp" android:scaleType="center"/>
+        <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ef6c00" android:id="@+id/textview5" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Download" android:layout_weight="1"/>
+        <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/textview6" android:background="#f5f5f5" android:paddingLeft="18dp" android:paddingTop="8dp" android:paddingRight="18dp" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cancel"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/linear1" android:background="#ffffff" android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/linear4" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/imageview3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icons8_flat_external" android:scaleType="center"/>
+            <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ef6c00" android:gravity="center" android:id="@+id/textview3" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Connecting and waiting for download...\10Don&apos;t leave here, just wait a bit!"/>
+            <ProgressBar android:id="@+id/progressbar2" android:layout_width="match_parent" android:layout_height="wrap_content" android:indeterminate="true" style="?android:attr/progressBarStyleHorizontal"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/linear2" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/imageview1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icons8_flat_internal" android:scaleType="center"/>
+            <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ef6c00" android:gravity="center" android:id="@+id/textview1" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Downloading...\10Don&apos;t leave here, just wait a bit!"/>
+            <ProgressBar android:id="@+id/progressbar1" android:layout_width="match_parent" android:layout_height="wrap_content" android:indeterminate="false" style="?android:attr/progressBarStyleHorizontal"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/linear3" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/imageview2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icons8_flat_ok" android:scaleType="center"/>
+            <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ef6c00" android:gravity="center" android:id="@+id/textview2" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Download completed\10The file has been saved in the Download folder on your device"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/linear5" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/imageview4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icons8_flat_delete_database" android:scaleType="center"/>
+            <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ef6c00" android:id="@+id/textview4" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="File not saved"/>
+        </LinearLayout>
+    </LinearLayout>
+    <WebView android:id="@+id/webview1" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

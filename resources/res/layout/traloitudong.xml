@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear1" android:background="#ffffff" android:paddingLeft="8dp" android:paddingTop="2dp" android:paddingRight="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/imageview1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icons8_flat_previous" android:scaleType="center"/>
+        <ImageView android:id="@+id/imageview5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icons8_flat_customer_support" android:scaleType="center"/>
+        <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ef6c00" android:id="@+id/textview3" android:paddingLeft="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Bot" android:layout_weight="1"/>
+        <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/textview1" android:background="#ef6c00" android:paddingLeft="18dp" android:paddingTop="8dp" android:paddingRight="18dp" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Help and feedback"/>
+    </LinearLayout>
+    <ListView android:id="@+id/listview1" android:background="#ffffff" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@null" android:dividerHeight="0dp" android:choiceMode="none" android:layout_weight="1" android:rotation="180"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear5" android:background="#ffffff" android:padding="4dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/imageview4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/light_1" android:scaleType="center"/>
+        <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ffc107" android:id="@+id/textview2" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="..." android:singleLine="true"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear2" android:background="#ffffff" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:textSize="12sp" android:textStyle="bold" android:textColor="#000000" android:textColorHint="#ffa726" android:id="@+id/edittext1" android:background="#ffe0b2" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="Enter a message" android:singleLine="true" android:layout_weight="1"/>
+        <ImageView android:id="@+id/imageview2" android:background="#ffb74d" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:src="@drawable/round_send_white_48" android:scaleType="center"/>
+    </LinearLayout>
+</LinearLayout>

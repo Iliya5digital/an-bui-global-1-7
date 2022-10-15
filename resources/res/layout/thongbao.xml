@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/linear1" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear2" android:paddingLeft="8dp" android:paddingTop="2dp" android:paddingRight="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/imageview1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/notify48" android:scaleType="center"/>
+            <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ef6c00" android:id="@+id/textview1" android:paddingLeft="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Notification" android:layout_weight="1"/>
+            <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/textview2" android:background="#ef6c00" android:paddingLeft="18dp" android:paddingTop="8dp" android:paddingRight="18dp" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Close"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/linear3" android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.airbnb.lottie.LottieAnimationView android:id="@+id/lottie1" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" android:layout_centerInParent="true" app:lottie_autoPlay="true" app:lottie_fileName="91137-notification.json" app:lottie_loop="true"/>
+        </LinearLayout>
+        <ListView android:id="@+id/listview1" android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@null" android:dividerHeight="0dp" android:choiceMode="none"/>
+    </LinearLayout>
+</LinearLayout>
