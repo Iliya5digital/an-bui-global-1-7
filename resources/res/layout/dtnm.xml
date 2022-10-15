@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/linear1" android:background="@drawable/welcomebackground" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/linear2" android:paddingLeft="8dp" android:paddingTop="44dp" android:paddingRight="8dp" android:paddingBottom="44dp" android:layout_width="match_parent" android:layout_height="match_parent">
+            <de.hdodenhof.circleimageview.CircleImageView android:id="@+id/circleimageview1" android:layout_width="100dp" android:layout_height="100dp" android:src="@drawable/anhtk" app:civ_border_color="#ef6c00" app:civ_border_overlay="true" app:civ_border_width="1dp" app:civ_circle_background_color="#ffffff"/>
+            <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/textview1" android:paddingLeft="8dp" android:paddingTop="20dp" android:paddingRight="8dp" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Stranger"/>
+            <TextView android:textSize="14sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/textview2" android:paddingLeft="8dp" android:paddingTop="8dp" android:paddingRight="8dp" android:paddingBottom="20dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Sent you a message"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/linear7" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                <ScrollView android:id="@+id/vscroll1" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#000000" android:gravity="center" android:id="@+id/textview5" android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent" android:text="No content"/>
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:gravity="bottom|center_horizontal" android:orientation="horizontal" android:id="@+id/linear3" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/linear4" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/imageview2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/h120" android:scaleType="center"/>
+                    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/textview3" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Refuse"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/linear6" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1"/>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/linear5" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/imageview3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/o120" android:scaleType="center"/>
+                    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/textview4" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Agree"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

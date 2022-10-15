@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/vscroll1" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@+id/linear4" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear5" android:paddingLeft="8dp" android:paddingTop="2dp" android:paddingRight="8dp" android:paddingBottom="2dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/imageview3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/engineering_48" android:scaleType="center"/>
+                <TextView android:textSize="14sp" android:textStyle="bold" android:textColor="#ff9800" android:id="@+id/textview2" android:paddingLeft="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Settings" android:layout_weight="1"/>
+                <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/textview46" android:background="#ef6c00" android:paddingLeft="18dp" android:paddingTop="8dp" android:paddingRight="18dp" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Done"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/linear19" android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="2dp">
+                <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="#ef6c00" android:id="@+id/textview22" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Personalization"/>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear20" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/imageview12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/light_1" android:scaleType="center"/>
+                    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/textview23" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Light mode" android:layout_weight="1"/>
+                    <Switch android:textSize="12sp" android:textColor="#000000" android:id="@+id/switch5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4dp"/>
+                    <Switch android:textSize="12sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/switch22" android:paddingLeft="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Auto"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear50" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/imageview34" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/layout_48a" android:scaleType="center"/>
+                    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/textview44" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Prevent status bar from interfering" android:layout_weight="1"/>
+                    <Switch android:textSize="12sp" android:textColor="#000000" android:id="@+id/switch18" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear47" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/imageview31" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/layout_48" android:scaleType="center"/>
+                    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/textview41" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Support for virtual navigation bar" android:layout_weight="1"/>
+                    <Switch android:textSize="12sp" android:textColor="#000000" android:id="@+id/switch16" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear46" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/imageview30" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icons8_flat_import" android:scaleType="center"/>
+                    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/textview40" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Background color for navigation bar" android:layout_weight="1"/>
+                    <Switch android:textSize="12sp" android:textColor="#000000" android:id="@+id/switch15" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear45" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/imageview29" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_arrow_left_primary_48dp" android:scaleType="center"/>
+                    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/textview39" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Prevent the navigation bar from getting in the way" android:layout_weight="1"/>
+                    <Switch android:textSize="12sp" android:textColor="#000000" android:id="@+id/switch14" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear31" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/imageview18" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/full_image_48" android:scaleType="center"/>
+                    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/textview32" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Background" android:layout_weight="1"/>
+                    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/textview48" android:background="#f5f5f5" android:paddingLeft="18dp" android:paddingTop="8dp" android:paddingRight="18dp" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Delete"/>
+                    <ImageView android:id="@+id/imageview39" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:src="@drawable/ic_blue_right_arrow_48dp" android:scaleType="center"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear52" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/imageview36" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icons8_flat_picture" android:scaleType="center"/>
+                    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/textview47" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Blur overlay for background images" android:layout_weight="1"/>
+                    <Switch android:textSize="12sp" android:textColor="#000000" android:id="@+id/switch20" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/linear14" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:layout_marginBottom="2dp">
+                <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="#ef6c00" android:id="@+id/textview3" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Notification"/>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear18" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/imageview11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/notify48" android:scaleType="center"/>
+                    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/textview21" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Go to system settings" android:layout_weight="1"/>
+                    <ImageView android:id="@+id/imageview37" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_blue_right_arrow_48dp" android:scaleType="center"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear34" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/imageview23" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_mail_48dp" android:scaleType="center"/>
+                    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/textview35" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="New message" android:layout_weight="1"/>
+                    <Switch android:textSize="12sp" android:textColor="#000000" android:id="@+id/switch12" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/linear15" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:layout_marginBottom="2dp">
+                <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="#ef6c00" android:id="@+id/textview12" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Browser"/>
+                <LinearLayout android:orientation="vertical" android:id="@+id/linear28" android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear29" android:paddingBottom="4dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <ImageView android:id="@+id/imageview15" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/home" android:scaleType="center"/>
+                        <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/textview30" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Home page" android:layout_weight="1"/>
+                        <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/textview49" android:background="#ef6c00" android:paddingLeft="18dp" android:paddingTop="8dp" android:paddingRight="18dp" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Save"/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:id="@+id/linear40" android:background="#ffe0b2" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <EditText android:textSize="12sp" android:textStyle="bold" android:textColor="#000000" android:textColorHint="#ffa726" android:id="@+id/edittext1" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="URL"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear30" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/imageview17" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/colored_box_48" android:scaleType="center"/>
+                    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/textview31" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Automatically open drawer" android:layout_weight="1"/>
+                    <Switch android:textSize="12sp" android:textColor="#000000" android:id="@+id/switch9" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear9" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/imageview7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_delete_active" android:scaleType="center"/>
+                    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/textview13" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Automatically clear cache" android:layout_weight="1"/>
+                    <Switch android:textSize="12sp" android:textColor="#000000" android:id="@+id/switch2" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear54" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/imageview40" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/light_1" android:scaleType="center"/>
+                    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/textview51" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Dark mode" android:layout_weight="1"/>
+                    <Switch android:textSize="12sp" android:textColor="#000000" android:id="@+id/switch23" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/linear16" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="2dp">
+                <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="#ef6c00" android:id="@+id/textview5" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Tools"/>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear7" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/imageview5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/event_on_download_success_48dp" android:scaleType="center"/>
+                    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/textview6" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Check for update"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear8" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/imageview6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_mail_48dp" android:scaleType="center"/>
+                    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/textview7" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Help and feedback"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/linear43" android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="2dp" android:layout_marginBottom="2dp">
+                <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="#ef6c00" android:id="@+id/textview37" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Advanced"/>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear51" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/imageview35" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icons8_flat_iphone" android:scaleType="center"/>
+                    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/textview45" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Status and navigation bar override interface" android:layout_weight="1"/>
+                    <Switch android:textSize="12sp" android:textColor="#000000" android:id="@+id/switch19" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear44" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/imageview28" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icons8_flat_electronics" android:scaleType="center"/>
+                    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/textview38" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Improve performance" android:layout_weight="1"/>
+                    <Switch android:textSize="12sp" android:textColor="#000000" android:id="@+id/switch13" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear53" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/imageview38" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icons8_flat_synchronize" android:scaleType="center"/>
+                    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/textview50" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Rotate 180°" android:layout_weight="1"/>
+                    <Switch android:textSize="12sp" android:textColor="#000000" android:id="@+id/switch21" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/linear17" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp">
+                <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="#ef6c00" android:id="@+id/textview8" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="App info"/>
+                <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/textview9" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="App name: An Bui"/>
+                <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/textview10" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Version: ?"/>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear39" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/textview11" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Developer:"/>
+                    <ImageView android:id="@+id/imageview24" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fiime" android:scaleType="center"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:id="@+id/linear22" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/linear1" android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.airbnb.lottie.LottieAnimationView android:id="@+id/lottie3" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" android:layout_centerInParent="true" app:lottie_autoPlay="true" app:lottie_fileName="4749-phone-settings.json" app:lottie_loop="false"/>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="12sp" android:textColor="#000000" android:id="@+id/textviewver" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1.0"/>
+</LinearLayout>

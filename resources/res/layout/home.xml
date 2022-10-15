@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/linear61" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@+id/linearall" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/linear55" android:background="#ef6c00" android:paddingLeft="15dp" android:paddingTop="15dp" android:paddingRight="15dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear1" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear2" android:background="#ffe0b2" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2dp" android:layout_weight="1">
+                    <EditText android:textSize="12sp" android:textStyle="bold" android:textColor="#000000" android:textColorHint="#ffa726" android:id="@+id/edittext1" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="What are you looking for?" android:singleLine="true" android:layout_weight="1"/>
+                    <ImageView android:id="@+id/imageview2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:src="@drawable/round_cancel_white_48" android:scaleType="center"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/linear3" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/linearload" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <com.airbnb.lottie.LottieAnimationView android:id="@+id/lottie1" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" android:layout_centerInParent="true" app:lottie_autoPlay="true" app:lottie_fileName="105599-moody-dog.json" app:lottie_loop="true"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/linear20" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear22" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <ImageView android:id="@+id/imageview44" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4dp" android:src="@drawable/engineering_48" android:scaleType="center"/>
+                        <ImageView android:id="@+id/imageview29" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4dp" android:src="@drawable/icons8_flat_customer_support" android:scaleType="center"/>
+                        <HorizontalScrollView android:id="@+id/hscroll1" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear21" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/textview42" android:background="#ef6c00" android:paddingLeft="18dp" android:paddingTop="8dp" android:paddingRight="18dp" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4dp" android:text="Store"/>
+                                <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/textview11" android:background="#03a9f4" android:paddingLeft="18dp" android:paddingTop="8dp" android:paddingRight="18dp" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="All"/>
+                                <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/textview18" android:background="#ff9800" android:paddingLeft="18dp" android:paddingTop="8dp" android:paddingRight="18dp" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginRight="4dp" android:text="VPS"/>
+                                <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/textview12" android:background="#9e9e9e" android:paddingLeft="18dp" android:paddingTop="8dp" android:paddingRight="18dp" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Limbo Emulator"/>
+                                <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/textview14" android:background="#607d8b" android:paddingLeft="18dp" android:paddingTop="8dp" android:paddingRight="18dp" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginRight="4dp" android:text="Termux"/>
+                                <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/textview13" android:background="#2196f3" android:paddingLeft="18dp" android:paddingTop="8dp" android:paddingRight="18dp" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ExaGear"/>
+                                <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/textview15" android:background="#1e88e5" android:paddingLeft="18dp" android:paddingTop="8dp" android:paddingRight="18dp" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginRight="4dp" android:text="OS"/>
+                                <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/textview30" android:background="#9e9e9e" android:paddingLeft="18dp" android:paddingTop="8dp" android:paddingRight="18dp" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Mini vMac"/>
+                            </LinearLayout>
+                        </HorizontalScrollView>
+                    </LinearLayout>
+                    <com.google.android.material.tabs.TabLayout android:id="@+id/tablayout1" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="wrap_content" app:tabGravity="1" app:tabIndicator="@drawable/tab_indicator" app:tabIndicatorColor="#ef6c00" app:tabIndicatorHeight="3dp" app:tabMode="0" app:tabSelectedTextColor="#ef6c00" app:tabTextAppearance="@style/myTabText" app:tabTextColor="#ef6c00"/>
+                    <androidx.viewpager.widget.ViewPager android:id="@+id/viewpager1" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/linear34" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear35" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <ImageView android:id="@+id/imageview48" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icons8_flat_clapperboard" android:scaleType="center"/>
+                        <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ef6c00" android:id="@+id/textview46" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Loading..." android:singleLine="true" android:layout_weight="1"/>
+                        <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/textview47" android:background="#ef6c00" android:paddingLeft="18dp" android:paddingTop="8dp" android:paddingRight="18dp" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Learn more"/>
+                    </LinearLayout>
+                    <WebView android:id="@+id/webview1" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                    <ListView android:id="@+id/listview2" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@null" android:dividerHeight="0dp" android:choiceMode="none" android:layout_weight="1" android:rotation="180"/>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear60" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <EditText android:textSize="12sp" android:textStyle="bold" android:textColor="#000000" android:textColorHint="#ffa726" android:id="@+id/edittext2" android:background="#ffe0b2" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="What are you thinking?" android:singleLine="true" android:layout_weight="1"/>
+                        <ImageView android:id="@+id/imageview47" android:background="#ffcc80" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:src="@drawable/round_send_white_48" android:scaleType="center"/>
+                        <ImageView android:id="@+id/imageview49" android:background="#ffe0b2" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:src="@drawable/round_favorite_white_48" android:scaleType="center"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/linearchat" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear24" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/linear26" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+                            <ImageView android:id="@+id/imageview24" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/layout_48a" android:scaleType="center"/>
+                            <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#2196f3" android:id="@+id/textview22" android:paddingLeft="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Posts" android:singleLine="true"/>
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/linear8" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+                            <ImageView android:id="@+id/imageview6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_papar_plane_48dp" android:scaleType="center"/>
+                            <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#2196f3" android:id="@+id/textview19" android:paddingLeft="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Chat" android:singleLine="true"/>
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/linear25" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+                            <ImageView android:id="@+id/imageview23" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_mail_48dp" android:scaleType="center"/>
+                            <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#9e9e9e" android:id="@+id/textview21" android:paddingLeft="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Message" android:singleLine="true"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <ListView android:id="@+id/listview4" android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@null" android:dividerHeight="0dp" android:choiceMode="none" android:layout_weight="1"/>
+                </LinearLayout>
+                <ListView android:id="@+id/listview3" android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@null" android:dividerHeight="0dp" android:choiceMode="none"/>
+                <LinearLayout android:orientation="vertical" android:id="@+id/linearmenu" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <ScrollView android:id="@+id/vscroll1" android:layout_width="match_parent" android:layout_height="match_parent">
+                        <LinearLayout android:orientation="vertical" android:id="@+id/linear43" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear44" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                                <de.hdodenhof.circleimageview.CircleImageView android:id="@+id/circleimageview1" android:layout_width="50dp" android:layout_height="50dp" android:src="@drawable/anhtk" app:civ_border_color="#ef6c00" app:civ_border_overlay="true" app:civ_border_width="1dp" app:civ_circle_background_color="#ffffff"/>
+                                <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="#ef6c00" android:id="@+id/textview31" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="User" android:singleLine="true" android:layout_weight="1"/>
+                                <ImageView android:id="@+id/imageview51" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/but48" android:scaleType="center"/>
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear48" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                                <ImageView android:id="@+id/imageview35" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/notify48" android:scaleType="center"/>
+                                <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#2196f3" android:id="@+id/textview33" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Notification"/>
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear50" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                                <ImageView android:id="@+id/imageview37" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icons8_flat_customer_support" android:scaleType="center"/>
+                                <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ef6c00" android:id="@+id/textview35" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Bot"/>
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear51" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                                <ImageView android:id="@+id/imageview38" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/color_globe_48" android:scaleType="center"/>
+                                <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#2196f3" android:id="@+id/textview36" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Browser"/>
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear62" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                                <ImageView android:id="@+id/imageview52" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icons8_flat_broken_link" android:scaleType="center"/>
+                                <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#1e88e5" android:id="@+id/textview48" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Skip adf.ly"/>
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear63" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                                <ImageView android:id="@+id/imageview53" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icons8_flat_share" android:scaleType="center"/>
+                                <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#1976d2" android:id="@+id/textview49" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Share"/>
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear54" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                                <ImageView android:id="@+id/imageview41" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/engineering_48" android:scaleType="center"/>
+                                <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ff9800" android:id="@+id/textview39" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Settings"/>
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear59" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                                <ImageView android:id="@+id/imageview33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/exit_48" android:scaleType="center"/>
+                                <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#2196f3" android:id="@+id/textview45" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Log out"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </ScrollView>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/linear4" android:padding="4dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/linear10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+                    <ImageView android:id="@+id/imageview8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pngitem48" android:scaleType="centerCrop"/>
+                    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ba68c8" android:id="@+id/textview8" android:padding="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Your" android:singleLine="true"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/linear9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+                    <ImageView android:id="@+id/imageview7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/people48" android:scaleType="center"/>
+                    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ff9800" android:id="@+id/textview6" android:padding="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Everyone" android:singleLine="true"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/linear5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+                    <ImageView android:id="@+id/imageview3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/home" android:scaleType="center"/>
+                    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ff5722" android:id="@+id/textview1" android:padding="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Home" android:singleLine="true"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/linear6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+                    <ImageView android:id="@+id/imageview4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icons8_flat_clapperboard" android:scaleType="center"/>
+                    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#3f51b5" android:id="@+id/textview2" android:padding="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Watch" android:singleLine="true"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/linear7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+                    <ImageView android:id="@+id/imageview5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icons8_flat_combo_chart1" android:scaleType="center"/>
+                    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#00bcd4" android:id="@+id/textview5" android:padding="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Charts" android:singleLine="true"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/linear56" android:background="#ef6c00" android:padding="22dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="12sp" android:textColor="#000000" android:id="@+id/textviewver" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="1.0"/>
+</LinearLayout>

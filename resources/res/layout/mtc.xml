@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/linear1" android:background="#ffffff" android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/linear2" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/imageview1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/hdtb" android:scaleType="center"/>
+            <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ef6c00" android:gravity="center" android:id="@+id/textview1" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="To get notified of new messages while you&apos;re away, press the home key instead of the back key. This helps keep the app running and keeps track of new messages."/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/linear3" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="#ef6c00" android:id="@+id/textview3" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="In case you don&apos;t know"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear4" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/imageview2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icons8_flat_shop" android:scaleType="center"/>
+                <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#4caf50" android:id="@+id/textview4" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="More things are in the Store."/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear8" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/imageview6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/exit_48" android:scaleType="center"/>
+                <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#3f51b5" android:id="@+id/textview8" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Log out and switch to another account."/>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/textview2" android:background="#ef6c00" android:paddingLeft="20dp" android:paddingTop="8dp" android:paddingRight="20dp" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="OK"/>
+    </LinearLayout>
+</LinearLayout>

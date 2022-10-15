@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/linear1" android:background="#ffffff" android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/imageview1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2dp" android:src="@drawable/fcl" android:scaleType="center"/>
+        <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ef6c00" android:gravity="center" android:id="@+id/textview1" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Give me access to your device&apos;s storage! I won&apos;t sneak your personal data!"/>
+        <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/textview2" android:background="#ef6c00" android:paddingLeft="18dp" android:paddingTop="8dp" android:paddingRight="18dp" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Open Settings"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/linear1" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear4" android:paddingLeft="8dp" android:paddingTop="2dp" android:paddingRight="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/imageview4" android:background="#ffe0b2" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4dp" android:src="@drawable/round_arrow_back_white_48" android:scaleType="center"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear5" android:background="#ffe0b2" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/imageview5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/round_send_white_48" android:scaleType="center"/>
+                <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ef6c00" android:id="@+id/textview1" android:paddingLeft="4dp" android:paddingRight="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Chat"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/linear6" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1"/>
+            <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/textview2" android:background="#ef6c00" android:paddingLeft="18dp" android:paddingTop="8dp" android:paddingRight="18dp" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Posts"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/linear3" android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.airbnb.lottie.LottieAnimationView android:id="@+id/lottie1" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" android:layout_centerInParent="true" app:lottie_autoPlay="true" app:lottie_fileName="77399-chat.json" app:lottie_loop="true"/>
+        </LinearLayout>
+        <ListView android:id="@+id/listview1" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@null" android:dividerHeight="0dp" android:choiceMode="none" android:layout_weight="1" android:rotation="180"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear2" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/imageview2" android:background="#ffe0b2" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/round_image_white_48" android:scaleType="center"/>
+            <ImageView android:id="@+id/imageview3" android:background="#ffe0b2" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginRight="4dp" android:src="@drawable/round_photo_camera_white_48" android:scaleType="center"/>
+            <EditText android:textSize="12sp" android:textStyle="bold" android:textColor="#000000" android:textColorHint="#ffa726" android:id="@+id/edittext1" android:background="#ffe0b2" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="Say something..." android:singleLine="true" android:layout_weight="1"/>
+            <ImageView android:id="@+id/imageview1" android:background="#ffcc80" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:src="@drawable/round_send_white_48" android:scaleType="center"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

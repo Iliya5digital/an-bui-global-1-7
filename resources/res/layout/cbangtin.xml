@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/linear1" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear2" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <de.hdodenhof.circleimageview.CircleImageView android:id="@+id/circleimageview1" android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/person_male48" app:civ_border_color="#008dcd" app:civ_border_overlay="true" app:civ_border_width="0dp" app:civ_circle_background_color="#ffe0b2"/>
+            <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ef6c00" android:id="@+id/textview1" android:paddingLeft="8dp" android:paddingRight="8dp" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView"/>
+        </LinearLayout>
+        <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/textview2" android:padding="8dp" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="TextView"/>
+        <ImageView android:id="@+id/imageview2" android:focusable="false" android:layout_width="match_parent" android:layout_height="250dp" android:src="@drawable/anh" android:scaleType="fitCenter"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/linear5" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/linear4" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+                <ImageView android:id="@+id/imageview3" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/love_icon_48dp" android:scaleType="center"/>
+                <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#757575" android:id="@+id/textview4" android:paddingLeft="8dp" android:paddingRight="8dp" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/linear6" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+                <ImageView android:id="@+id/imageview4" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icons8_flat_comments" android:scaleType="center"/>
+                <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#8bc34a" android:id="@+id/textview5" android:paddingLeft="8dp" android:paddingRight="8dp" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Bình luận"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

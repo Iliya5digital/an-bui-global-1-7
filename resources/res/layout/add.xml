@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/linear7" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/linear1" android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ProgressBar android:id="@+id/progressbar1" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:indeterminate="true" style="?android:attr/progressBarStyle"/>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/linear6" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <de.hdodenhof.circleimageview.CircleImageView android:id="@+id/circleimageview1" android:layout_width="100dp" android:layout_height="100dp" android:src="@drawable/anhtk" app:civ_border_color="#ef6c00" app:civ_border_overlay="true" app:civ_border_width="1dp" app:civ_circle_background_color="#ffffff"/>
+                <EditText android:textSize="12sp" android:textStyle="bold" android:textColor="#000000" android:textColorHint="#ffa726" android:gravity="center" android:id="@+id/edittext1" android:background="#ffe0b2" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="4dp" android:hint="Your name"/>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear4" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:id="@+id/textview1" android:background="#ef6c00" android:paddingLeft="18dp" android:paddingTop="8dp" android:paddingRight="18dp" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Done" android:layout_weight="1"/>
+                    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#000000" android:gravity="center" android:id="@+id/textview6" android:background="#f5f5f5" android:paddingLeft="18dp" android:paddingTop="8dp" android:paddingRight="18dp" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:text="Cancel" android:layout_weight="1"/>
+                </LinearLayout>
+                <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ef6c00" android:gravity="center" android:id="@+id/textview2" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="4dp" android:text="Click on the photo to set the profile picture"/>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/linear3" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/textview4" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="?" android:singleLine="true" android:layout_weight="1"/>
+                    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/textview5" android:background="#ef6c00" android:paddingLeft="18dp" android:paddingTop="8dp" android:paddingRight="18dp" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Copy"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/linear2" android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@+id/imageview2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icons8_flat_external" android:scaleType="center"/>
+            <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ef6c00" android:gravity="center" android:id="@+id/textview7" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Processing your photo and uploading..."/>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="12sp" android:textColor="#000000" android:id="@+id/textview3" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>

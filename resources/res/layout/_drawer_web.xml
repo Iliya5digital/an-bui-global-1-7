@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/linear1a" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ScrollView android:id="@+id/vscroll1a" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:id="@+id/linear2a" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear3a" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/imageview1a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_blue_right_arrow_48dp" android:scaleType="center" android:layout_weight="1"/>
+                    <ImageView android:id="@+id/imageview2a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/event_on_reset_password_email_se" android:scaleType="center" android:layout_weight="1"/>
+                    <ImageView android:id="@+id/imageview2b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/home" android:scaleType="center" android:layout_weight="1"/>
+                    <ImageView android:id="@+id/imageview4a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_add_green_circle_48dp" android:scaleType="center" android:layout_weight="1"/>
+                    <ImageView android:id="@+id/imageview5a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/color_about_48" android:scaleType="center" android:layout_weight="1"/>
+                    <ImageView android:id="@+id/imageview6a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/openwith48" android:scaleType="center" android:layout_weight="1"/>
+                    <ImageView android:id="@+id/imageview3a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_cancel_48dp" android:scaleType="center" android:layout_weight="1"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear4a" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <EditText android:textSize="12sp" android:textStyle="bold" android:textColor="#000000" android:textColorHint="#ffa726" android:id="@+id/edittext1a" android:background="#ffe0b2" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="URL" android:singleLine="true" android:layout_weight="1"/>
+                    <ImageView android:id="@+id/imageview7a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_blue_right_arrow_48dp" android:scaleType="center"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear1b" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ef6c00" android:gravity="center" android:id="@+id/textview1b" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Allow file upload" android:layout_weight="1"/>
+                    <Switch android:textSize="12sp" android:textColor="#000000" android:gravity="center" android:id="@+id/switch1a" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ef6c00" android:gravity="center" android:id="@+id/textview2b" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Allow full screen" android:layout_weight="1"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear1c" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/imageview1b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/layout_48" android:scaleType="center"/>
+                    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ef6c00" android:id="@+id/textview1a" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Desktop site" android:layout_weight="1"/>
+                    <Switch android:textSize="12sp" android:textColor="#000000" android:id="@+id/switch1b" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>
