@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="341" android:versionName="1.7" android:compileSdkVersion="31" android:compileSdkVersionCodename="12" package="com.anbui.global.app" platformBuildVersionCode="31" platformBuildVersionName="12">
+    <uses-sdk android:minSdkVersion="25" android:targetSdkVersion="28"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@drawable/app_icon" android:name="com.anbui.global.app.SketchApplication" android:allowBackup="true" android:usesCleartextTraffic="true" android:requestLegacyExternalStorage="true">
+        <activity android:name="com.anbui.global.app.MainActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateHidden" android:hardwareAccelerated="true" android:supportsPictureInPicture="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.anbui.global.app.HomeActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateVisible" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.ChitietActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateHidden" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.QuangcaoActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateHidden" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.HelpActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateVisible" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.DangnhapActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateHidden" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.ChophepbonhoActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateHidden" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.UngdungActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateHidden" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.CaidatActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateHidden" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.CapnhatActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateHidden" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.TraloitudongActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateVisible" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.QuacuActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateHidden" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.ThongbaoActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateHidden" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.SteveActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateHidden" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.WebActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateHidden" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.ChondangnhapActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateHidden" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.DangnhapeActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateHidden" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.DangkyeActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateHidden" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.QmkActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateHidden" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.AllActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateHidden" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.ConlaiActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateHidden" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.TermuxActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateHidden" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.ExaActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateHidden" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.BocActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateHidden" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.OnwActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateHidden" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.ChatActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateVisible" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.GuichatonActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateVisible" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.WelcomeActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateHidden" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.MtcActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateHidden" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.BangtinActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateHidden" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.DangActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateVisible" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.XembvActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateHidden" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.BinhluanActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateVisible" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.XemanhActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateHidden" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.AddActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateHidden" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.StoreActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateHidden" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.TaiActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateHidden" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.MinivActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateHidden" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.InfouActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateHidden" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.TdhActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateHidden" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.HmmActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateHidden" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.AnhnendlActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateHidden" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.HieunangActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateHidden" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.SaphetpinActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateHidden" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.TaifirebaseActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateHidden" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.DtnmActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateHidden" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.SadfActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateVisible" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.NhanfileActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateHidden" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.GuifileshareActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateHidden" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.SsfilesActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateHidden" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.PlaymuActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateHidden" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.TtextActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateHidden" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:theme="@style/AppTheme.FullScreen" android:name="com.anbui.global.app.RestartActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateHidden" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:theme="@style/AppTheme.FullScreen" android:name="com.anbui.global.app.JustaActivity" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden" android:windowSoftInputMode="stateHidden" android:hardwareAccelerated="true" android:supportsPictureInPicture="true"/>
+        <activity android:name="com.anbui.global.app.DebugActivity" android:screenOrientation="portrait"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <provider android:name="com.google.firebase.provider.FirebaseInitProvider" android:exported="false" android:authorities="com.anbui.global.app.firebaseinitprovider" android:initOrder="100"/>
+        <service android:name="com.google.firebase.components.ComponentDiscoveryService" android:exported="false">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.iid.Registrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <provider android:name="androidx.core.content.FileProvider" android:exported="false" android:authorities="com.anbui.global.app.provider" android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/provider_paths"/>
+        </provider>
+        <service android:name="com.google.firebase.messaging.FirebaseMessagingService" android:exported="false">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND" android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+    </application>
+</manifest>
